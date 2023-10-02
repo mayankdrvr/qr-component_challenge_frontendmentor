@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -23,13 +21,13 @@ body {
     justify-content: center;
 }
 
-img {
+.container__image {
     max-width: 100%;
     border-radius: 0.625rem;
     margin-bottom: 1rem;
 }
 
-.container {
+.container--properties {
     max-width: 100%;
     background-color: var(--white);
     padding: 1.25rem;
@@ -39,26 +37,27 @@ img {
     margin: 7rem 3rem 7rem 3rem;
 }
 
-.container h1 {
+.container__heading {
     color: var(--dark-blue);
     text-align: center;
     margin-bottom: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
-.container p {
+.container__description {
     color: var(--grayish_blue);
     text-align: center;
     font-size: 1rem;
     margin-bottom: 2.5rem;
 }
 
-.attribution {
+.attribution--properties {
     font-size: 1rem;
     text-align: center;
 }
 
-.attribution a {
+.attribution--source,
+.attribution--creator {
     color: hsl(228, 45%, 44%);
 
 }
