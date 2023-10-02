@@ -22,12 +22,14 @@ body {
 }
 
 .container__image {
+
     max-width: 100%;
     border-radius: 0.625rem;
     margin-bottom: 1rem;
 }
 
 .container--properties {
+    width: 350px;
     max-width: 100%;
     background-color: var(--white);
     padding: 1.25rem;
@@ -62,8 +64,8 @@ body {
 
 }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     .container {
-        width: 400px;
+        width: 300px;
     }
 }
